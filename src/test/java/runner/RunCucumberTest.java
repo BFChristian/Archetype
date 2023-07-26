@@ -13,6 +13,6 @@ import static io.cucumber.junit.platform.engine.Constants.*;
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty")
 @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "steps")
 //@ConfigurationParameter(key = FEATURES_PROPERTY_NAME, value = "src/test/resources/features")
-@ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME, value = "@test")
+@ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME, value = "@servicios")
 public class RunCucumberTest {
 }
